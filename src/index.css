@@ -13,7 +13,27 @@ code {
 }
 
 .jumbotron-image {
-  background-image: url(https://images.unsplash.com/photo-1531897539387-5cdaa6103d5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-image: url(https://images.unsplash.com/photo-1569414753782-7b8cef3ad2e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.jumbotron {
+  color: rgb(130, 5, 141);
+  font-weight: bolder;
+  margin: 0;
+}
+
+.navbar-container {
+  background-color: rgb(130, 5, 141);
+}
+
+.nav-tabs {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  color: rgb(197, 197, 5);
 }
