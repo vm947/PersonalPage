@@ -109,6 +109,10 @@ code {
   margin: 10px;
 }
 
+.p-home{
+  font-size: 2rem;
+}
+
 @media only screen and (max-width: 420px) {
   .home-container .navbar-container .jumbotron-container {
     width: 350px;
