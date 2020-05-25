@@ -22,17 +22,25 @@ code {
 }
 
 .p-about {
+  height: 100%;
   font-size: 2rem;
   width: 400px;
 }
 
-.p-container {
+/* .p-parent{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  flex-direction: column;
+} */
+
+.p-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  border: 1px solid rgb(193, 66, 66);
   margin-top: 50px;
+  border: 1px solid rgb(193, 66, 66);
 }
 
 .container {
@@ -78,10 +86,10 @@ code {
 
 .card-container {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-evenly;
+  align-items: center;
   margin-top: 20px;
-  padding: 20px;
+  padding-bottom: 10px;
 }
 
 .card-style {
@@ -132,6 +140,7 @@ code {
   }
   .p-container {
     width: 350px;
+    height: 50%;
   }
 
   .p-about {

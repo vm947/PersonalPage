@@ -24,7 +24,6 @@ export const Works = () => {
       </div>
       <div className="card card-style">
         <div className="card-body second-card">
-        
           <h4 className="card-subtitle mb-2">Rock Paper Scissors</h4>
           <p className="card-text">
             A practice page using React to play Rock Paper Scissors against
