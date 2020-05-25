@@ -17,16 +17,16 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to='/about'>
-            About
+          <NavLink className="nav-link" to='/storytime'>
+            StoryTime
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink
             className="nav-link"
-            to='/storytime'
+            to='/about'
           >
-            StoryTime
+            About
           </NavLink>
         </li>
       </ul>

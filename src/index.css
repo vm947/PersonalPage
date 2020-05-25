@@ -12,30 +12,58 @@ code {
     monospace;
 }
 
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+.p-about {
+  font-size: 2rem;
+  width: 400px;
+}
+
+.p-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid rgb(193, 66, 66);
+  margin-top: 50px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.472);
+  width: 50%;
+}
+
 .jumbotron-image {
-  background-image: url(https://images.unsplash.com/photo-1569414753782-7b8cef3ad2e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+  background-image: url(https://images.unsplash.com/photo-1555609928-93206191ad50?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=753&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron {
-  color: rgb(4, 126, 148);
-  font-weight: bolder;
+  color: black;
+  font-weight: 900;
   margin: 0;
-  font-family: 'Electrolize', sans-serif;
+  font-family: "Electrolize", sans-serif;
 }
 
 .navbar-container {
-  background-color: rgb(8, 153, 179);
+  background-color: rgb(193, 66, 66);
   padding: 0;
   margin: 0;
-  border-top: 1.5px solid black;
+  border-top: 1.5px solid rgb(184, 176, 176);
 }
 
 #leader {
   font-size: 2.5rem;
   font-weight: bold;
-  
 }
 
 .nav-tabs {
@@ -46,6 +74,31 @@ code {
 
 .nav-link {
   color: black;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.card-style {
+  width: 18rem;
+  height: 30rem;
+  border: 1px dotted rgb(193, 66, 66);
+  font-size: 2rem;
+  margin: 10px;
+}
+
+.second-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: column;
+  height: 100%;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 420px) {
@@ -61,5 +114,28 @@ code {
   }
   .display-4 {
     font-size: 2rem;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .p-container {
+    width: 350px;
+  }
+
+  .p-about {
+    width: 350px;
+    font-size: 1rem;
   }
 }
