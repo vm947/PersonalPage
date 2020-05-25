@@ -19,21 +19,47 @@ code {
 }
 
 .jumbotron {
-  color: rgb(130, 5, 141);
+  color: rgb(4, 126, 148);
   font-weight: bolder;
   margin: 0;
+  font-family: 'Electrolize', sans-serif;
 }
 
 .navbar-container {
-  background-color: rgb(130, 5, 141);
+  background-color: rgb(8, 153, 179);
+  padding: 0;
+  margin: 0;
+  border-top: 1.5px solid black;
+}
+
+#leader {
+  font-size: 2.5rem;
+  font-weight: bold;
+  
 }
 
 .nav-tabs {
   display: flex;
   justify-content: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .nav-link {
-  color: rgb(197, 197, 5);
+  color: black;
+}
+
+@media only screen and (max-width: 420px) {
+  .home-container .navbar-container .jumbotron-container {
+    width: 350px;
+    font-size: 0.8rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+  #leader {
+    font-size: 0.5rem;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
 }

@@ -8,27 +8,25 @@ const Navbar = () => {
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <NavLink className="nav-link active" to='/'>
-            Active
+            Home
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to='/'>
-            Link
+          <NavLink className="nav-link" to='/works'>
+            Works
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to='/'>
-            Link
+          <NavLink className="nav-link" to='/about'>
+            About
           </NavLink>
         </li>
         <li className="nav-item">
           <NavLink
-            className="nav-link disabled"
-            to='/'
-            tabindex="-1"
-            aria-disabled="true"
+            className="nav-link"
+            to='/storytime'
           >
-            Carol
+            StoryTime
           </NavLink>
         </li>
       </ul>
