@@ -125,6 +125,10 @@ code {
   background-color: brown;
 }
 
+.home-container{
+  height: 250px;
+}
+
 @media only screen and (max-width: 420px) {
   .home-container .navbar-container .jumbotron-container {
     width: 350px;
