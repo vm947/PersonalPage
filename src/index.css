@@ -181,6 +181,7 @@ code {
   }
 }
 
+
 @media only screen and (max-width: 720px) {
   .card-container {
     display: flex;
