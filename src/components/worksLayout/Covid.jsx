@@ -11,7 +11,7 @@ const Covid = () => {
         style={imgStyle}
         src="https://images.unsplash.com/photo-1590251979938-f04c85e0db7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80"
         className="card-img-top"
-        alt="..."
+        alt="Covid-19 Written on Brick Wall"
       />
       <div className="card-body">
         <p className="card-text">
