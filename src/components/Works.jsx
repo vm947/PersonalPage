@@ -5,7 +5,6 @@ import WavesTop from "./worksLayout/WavesTop";
 import WavesBottom from "./worksLayout/WavesBottom";
 
 export const Works = () => {
-
   return (
     <div>
       <div className="wave-container">
@@ -16,7 +15,7 @@ export const Works = () => {
         <Covid />
         <RockPaper />
       </div>
-      <WavesBottom/>
+      <WavesBottom />
     </div>
   );
 };
