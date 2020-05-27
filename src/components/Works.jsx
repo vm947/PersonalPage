@@ -10,7 +10,7 @@ export const Works = () => {
     <div>
       <div className="wave-container">
         <WavesTop />
-        <h1 className="wave-header">Completed, or in Progress, Projects</h1>
+        <h1 className="wave-header">Completed Projects</h1>
       </div>
       <div className="card-container">
         <Covid />
