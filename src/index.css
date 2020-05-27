@@ -198,9 +198,11 @@ code {
     font-family: 'Bangers', cursive;
 }
 
-.p-home {
-  font-size: 3rem;
+#leader {
+  font-size: 3.5rem;
+  font-weight: bold;
 }
+
 
 
 
