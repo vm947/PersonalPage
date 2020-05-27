@@ -1,32 +1,31 @@
 import React from "react";
 import WavesTop from "./worksLayout/WavesTop";
 import WavesBottom from "./worksLayout/WavesBottom";
+import BackGround from '../components/AboutComponents/BackGround';
+import Interests from '../components/AboutComponents/Interests';
 
 export const About = () => {
+  const containerStyle = {
+    position: "relative",
+    textAlign: "center",
+  };
+
+  const h1Style = {
+    position: "absolute",
+    top: "25%",
+    left: "50%",
+    transform: ` translate(-50%, -50%)`,
+    bottom: "55%",
+  };
   return (
     <div>
+      <div style={containerStyle}>
       <WavesTop />
+      <h1 style={h1Style}>A Litte About Me</h1>
+      </div>
       <div className="about-container">
-        <div className="p-parent">
-          <div className="p-container">
-            <h2>Background</h2>
-            <p className="p-about">
-              I am a self taught web designer living in Moscow Russia. I have
-              been studying web design for over a year and make a conscious
-              effort to study, apply what I have learned and improve everday. I
-              have an affinity for using React and front-end development.
-            </p>
-          </div>
-        </div>
-        <div className="p-parent">
-          <div className="p-container">
-            <h2>Interests</h2>
-            <p className="p-about">
-              I love animals, particularly dogs. I have a Russian Spaniel, who
-              is always pestering my wife and I for cookies and belly rubs.
-            </p>
-          </div>
-        </div>
+        <BackGround/>
+        <Interests/>
       </div>
       <WavesBottom />
     </div>
