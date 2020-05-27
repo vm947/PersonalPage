@@ -9,7 +9,7 @@ export const Works = () => {
     <div>
       <div className="wave-container">
         <WavesTop />
-        <h1 className="wave-header">Completed Projects</h1>
+        <h1 className="wave-header" id='works-wave-header'>Completed Projects</h1>
       </div>
       <div className="card-container">
         <Covid />

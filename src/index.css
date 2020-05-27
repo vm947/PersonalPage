@@ -220,4 +220,8 @@ code {
   .rock-card {
     margin-top: 10px;
   }
+
+  #works-wave-header{
+    font-size: 3rem;
+  }
 }
