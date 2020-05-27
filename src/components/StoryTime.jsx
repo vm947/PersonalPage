@@ -3,23 +3,11 @@ import WavesTop from "./worksLayout/WavesTop";
 import WavesBottom from "./worksLayout/WavesBottom";
 
 export const StoryTime = () => {
-  const containerStyle = {
-    position: "relative",
-    textAlign: "center",
-  };
-
-  const h1Style = {
-    position: "absolute",
-    top: "25%",
-    left: "50%",
-    transform: ` translate(-50%, -50%)`,
-    bottom: "55%",
-  };
   return (
     <div>
-      <div style={containerStyle}>
+      <div className="wave-container">
         <WavesTop />
-        <h1 style={h1Style}>StoryTime Blog Coming Soon</h1>
+        <h1 className="wave-header">StoryTime Blog</h1>
       </div>
       <div className="storytime-container">
         <h1>Coming in the Future</h1>

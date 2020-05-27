@@ -5,8 +5,9 @@ import Home from "./components/Home";
 import Works from "./components/Works";
 import About from "./components/About";
 import StoryTime from "./components/StoryTime";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
+import "./index.css";
 
 function App() {
   return (
